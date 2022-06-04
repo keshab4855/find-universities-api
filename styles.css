@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  background: rgb(237, 192, 108);
+
+  justify-content: center;
+  position: relative;
+}
+.wrapper {
+  /* background: rgb(97, 237, 97); */
+  background: linear-gradient(to right red, yellow);
+
+  position: absolute;
+
+  padding: 10px;
+  min-height: 80vh;
+  min-width: 80vw;
+}
+
+.heading,
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+/* .details {
+  
+  
+} */
+.uni-name,
+.website {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+/* .content {
+  margin-top: 100px;
+  text-align: center;
+  display: flex;
+} */
+.uni-heading,
+.uni-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  display: block;
+}
+
+.btn {
+  margin-left: 10px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
